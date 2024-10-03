@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro-project 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <p>ROCK<br>PAPER<br>SCISSORS</p>
+        </div>
+        <div class="computer-score">
+            <p>COMPUTER<br>SCORE<br><span class="zero"  id="computer-score">0</span></p>
+        </div>
+        <div class="your-score">
+            <p>YOUR<br>SCORE<br><span class="zero" id="player-score">0</span></p>
+        </div>
+        
+    </div>
+
+    <div class="selection-container">
+        <div id="player-selection" class="choice-display"></div>
+        <div id="result-message" class="result-message"></div>
+        <div id="computer-selection" class="choice-display"></div>
+    </div>
+
+    <img class="blue-ring" src="blue-ring.png" alt="">
+    <img src="stone.png" alt="Rock" id="rock">
+    <img src="Line1.png" alt="">
+    <img src="purple-ring.png" alt="" class="purple-ring">
+    <img src="scissor.png" alt="Scissor" id="scissors">
+    <img src="Line3.png" alt="">
+    <img src="Line2.png" alt="">
+    <img class="yellow-ring" src="yellow-ring.png" alt="">
+    <img src="paper.png" alt="Paper" id="paper">
+    <button class="button" id="rules-button">RULES</button>
+    <script src="scripts.js"></script>
+</body>
+</html>
